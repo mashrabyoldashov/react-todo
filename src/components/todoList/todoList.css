@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+.todo {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+}
+
+.checkbox {
+    color: blue;
+    width: 20px;
+    height: 20px;
+}
+
+.input {
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 10px 0px 0px 10px;
+    width: 542px;
+}
+
+.input::placeholder{
+    color: black;
+}
+
+.add-btn {
+    padding: 0px 30px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: large;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(17, 0, 255);
+    border: 3px solid rgb(17, 0, 255);
+    transition: all .3s ease;
+}
+
+.add-btn:hover {
+    background: rgb(17, 0, 255);
+    color: #fff;
+    border: 3px solid transparent;
+}
+
+.left-btn {
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.center-btn {
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.right-btn {
+    padding: 10px;
+}
+
+.item {
+    padding: 0px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 636px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.delete {
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid rgb(235, 1, 1);
+    color: rgb(235, 1, 1);
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.delete:hover {
+    border: 3px solid transparent;
+    color: #fff;
+    background-color: rgb(235, 1, 1);
+}
