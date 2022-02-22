@@ -62,7 +62,9 @@
 
 .right-btn {
     padding: 10px;
+    border-radius: 0px;
 }
+
 
 .item {
     padding: 0px 40px;
@@ -90,4 +92,11 @@
     border: 3px solid transparent;
     color: #fff;
     background-color: rgb(235, 1, 1);
+}
+
+.clear {
+    border-radius: 0px 10px 10px 0px;
+}
+.wrapper {
+    display: flex;
 }
